@@ -66,7 +66,7 @@ const PLACEHOLDERS = {
       },
       spreadSecondary: null,
     },
-    // tertiaryHero
+    // thirdHero
     {
       heading: {value: 'From the Slopes to the Chalet'},
       byline: null,
@@ -95,6 +95,152 @@ const PLACEHOLDERS = {
             url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
           },
           id: 'gid://shopify/MediaImage/29259478401080',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+    },
+    // fourthHero
+    {
+      heading: {value: 'From the Slopes to the Chalet'},
+      byline: null,
+      cta: {value: 'Shop Now →'},
+      handle: 'swimwear',
+      spread: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A skier hikes up a mountain through the snow with skis over their shoulder.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/2925947836822',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+      spreadSecondary: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A snow covered lodge is illuminated by lights at night with a dark starry sky and mountain backdrop.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/29229478401080',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+    },
+    {
+      heading: {value: 'From the Slopes to the Chalet'},
+      byline: null,
+      cta: {value: 'Shop Now →'},
+      handle: 'swimwear',
+      spread: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A skier hikes up a mountain through the snow with skis over their shoulder.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/2925947836822',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+      spreadSecondary: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A snow covered lodge is illuminated by lights at night with a dark starry sky and mountain backdrop.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/29229478401080',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+    },
+    // fourthHero
+    {
+      heading: {value: 'From the Slopes to the Chalet'},
+      byline: null,
+      cta: {value: 'Shop Now →'},
+      handle: 'swimwear',
+      spread: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A skier hikes up a mountain through the snow with skis over their shoulder.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/2925947836822',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+      spreadSecondary: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A snow covered lodge is illuminated by lights at night with a dark starry sky and mountain backdrop.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/29229478401080',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+    },
+    {
+      heading: {value: 'From the Slopes to the Chalet'},
+      byline: null,
+      cta: {value: 'Shop Now →'},
+      handle: 'swimwear',
+      spread: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A skier hikes up a mountain through the snow with skis over their shoulder.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/2925947836822',
+          image: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_7.png?v=1658662209',
+            width: 2500,
+            height: 2500,
+          },
+        },
+      },
+      spreadSecondary: {
+        reference: {
+          mediaContentType: 'IMAGE',
+          alt: 'A snow covered lodge is illuminated by lights at night with a dark starry sky and mountain backdrop.',
+          previewImage: {
+            url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
+          },
+          id: 'gid://shopify/MediaImage/29229478401080',
           image: {
             url: 'https://cdn.shopify.com/s/files/1/0626/3852/2540/files/Untitled_design_6.png?v=1658662209',
             width: 2500,

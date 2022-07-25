@@ -67,7 +67,14 @@ export function Hero({
               {byline.value}
             </Text>
           )}
-          {cta?.value && <Text size="lead">{cta.value}</Text>}
+          {cta?.value && (
+            <Text
+              className="rounded-full border-solid border-2 px-4 py-3"
+              size="lead"
+            >
+              {cta.value}
+            </Text>
+          )}
         </div>
       </section>
     </Link>

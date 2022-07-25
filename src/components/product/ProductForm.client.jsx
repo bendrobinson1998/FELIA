@@ -14,10 +14,12 @@ import {Heading, Text, Button, ProductOptions} from '~/components';
 export function ProductForm() {
   const {pathname, search} = useUrl();
   const [params, setParams] = useState(new URLSearchParams(search));
-
+  const [atcText, setAtcText] = useState('Add to bag');
   const {options, setSelectedOption, selectedOptions, selectedVariant} =
     useProductOptions();
-
+  const handleAtcText = () => {
+    setAtcText("It's in your bag!");
+  };
   const isOutOfStock = !selectedVariant?.availableForSale || false;
   const isOnSale =
     selectedVariant?.priceV2?.amount <
@@ -106,6 +108,7 @@ export function ProductForm() {
           accessibleAddingToCartLabel="Adding item to your cart"
           disabled={isOutOfStock}
           type="button"
+          onClick={handleAtcText}
         >
           <Button
             width="full"
@@ -119,7 +122,7 @@ export function ProductForm() {
                 as="span"
                 className="flex items-center justify-center gap-2"
               >
-                <span>Add to bag</span> <span>·</span>{' '}
+                <span>{atcText}</span> <span>·</span>{' '}
                 <Money
                   withoutTrailingZeros
                   data={selectedVariant.priceV2}

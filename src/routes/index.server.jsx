@@ -51,9 +51,14 @@ function HomepageContent() {
   const {heroBanners, featuredCollections, featuredProducts} = data;
 
   // fill in the hero banners with placeholders if they're missing
-  const [primaryHero, secondaryHero, tertiaryHero] = getHeroPlaceholder(
-    heroBanners.nodes,
-  );
+  const [
+    primaryHero,
+    secondaryHero,
+    thirdHero,
+    fourthHero,
+    fifthHero,
+    sixthHero,
+  ] = getHeroPlaceholder(heroBanners.nodes);
 
   return (
     <>
@@ -70,7 +75,10 @@ function HomepageContent() {
         data={featuredCollections.nodes}
         title="Collections"
       />
-      {tertiaryHero && <Hero {...tertiaryHero} />}
+      {thirdHero && <Hero {...thirdHero} />}
+      {fourthHero && <Hero {...fourthHero} />}
+      {fifthHero && <Hero {...fifthHero} />}
+      {sixthHero && <Hero {...sixthHero} />}
     </>
   );
 }
@@ -92,7 +100,7 @@ function SeoForHomepage() {
       data={{
         title,
         description,
-        titleTemplate: '%s · Powered by Hydrogen',
+        titleTemplate: '%s',
       }}
     />
   );
@@ -104,7 +112,7 @@ const HOMEPAGE_CONTENT_QUERY = gql`
   query homepage($country: CountryCode, $language: LanguageCode)
   @inContext(country: $country, language: $language) {
     heroBanners: collections(
-      first: 3
+      first: 6
       query: "collection_type:smart"
       sortKey: UPDATED_AT
     ) {
