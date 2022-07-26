@@ -71,10 +71,11 @@ function HomepageContent() {
         divider="bottom"
       />
       {secondaryHero && <Hero {...secondaryHero} />}
+      {/* 
       <FeaturedCollections
         data={featuredCollections.nodes}
         title="Collections"
-      />
+      />*/}
       {thirdHero && <Hero {...thirdHero} />}
       {fourthHero && <Hero {...fourthHero} />}
       {fifthHero && <Hero {...fifthHero} />}
