@@ -2,7 +2,7 @@ import {defineConfig, CookieSessionStorage} from '@shopify/hydrogen/config';
 
 export default defineConfig({
   shopify: {
-    defaultCountryCode: 'US',
+    defaultCountryCode: 'UK',
     defaultLanguageCode: 'EN',
     storeDomain: 'felia-reusable-wear.myshopify.com',
     storefrontToken: 'f76402403066b3c59b71cb072c3a9f7c',

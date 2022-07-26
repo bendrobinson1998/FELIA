@@ -1,4 +1,4 @@
-import {Suspense} from 'react';
+import {Suspense, useState, useEffect} from 'react';
 import renderHydrogen from '@shopify/hydrogen/entry-server';
 import {
   FileRoutes,
@@ -28,6 +28,7 @@ function App({request}) {
           <Suspense>
             <DefaultSeo />
           </Suspense>
+
           <Router>
             <FileRoutes
               basePath={countryCode ? `/${countryCode}/` : undefined}
