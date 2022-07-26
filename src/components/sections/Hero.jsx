@@ -69,7 +69,7 @@ export function Hero({
           )}
           {cta?.value && (
             <Text
-              className="rounded-full border-solid border-2 px-4 py-3"
+              className="rounded-full border-solid border-2 px-4 py-3 bg-white"
               size="lead"
             >
               {cta.value}
